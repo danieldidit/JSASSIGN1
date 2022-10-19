@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: auto;
+}
+
+body {
+    margin: 0px;
+    height: 95%;
+    width: auto;
+    font-size: 20px;
+    background-color: lemonchiffon;
+}
+
+.wrapper {
+    height: 100%;
+    /*width: auto;*/
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 10% 80% 10%;
+    padding: 20px 50px 50px 50px;
+    gap: 5px;
+}
+
+button {
+    height: 80%;
+    width: 80%;  
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+p {
+    padding: 25px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#print {
+    padding: 5px;
+    color: purple;
+    font-weight: 600;
+}
+
+div {
+    border: 1px solid rgb(28, 158, 11);
+    text-align: center;
+}
